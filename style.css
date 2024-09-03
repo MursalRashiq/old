@@ -1,0 +1,296 @@
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: NotoSans, NotoSerif, Matterhorn, Helvetica, sans-serif;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 85px 1fr;
+
+
+
+}
+
+.logo {
+
+
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    
+    padding-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.1;
+    font-family: Matterhorn, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.pics {
+    position: relative;
+}
+
+.pic {
+    width: 100%;
+    height: 763%;
+    cursor: pointer;
+}
+.first-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.second-main {
+
+    background-color: #efeaeaa9;
+    margin-top: 15px;
+}
+
+.heading {
+    padding-left: 90px;
+    padding-top: 20px;
+    font: normal;
+}
+
+.y {
+    position: relative;
+    background: linear-gradient(#000);
+
+
+}
+.y1 {
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    bottom: 20px;
+    padding-left: 30%;
+    color: #fff;
+    font-size: 25px;
+}
+.banner1 {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 20%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.pera {
+    margin-left: 48px;
+    font-size: medium;
+    margin-bottom: 2px;
+}
+.pera1 {
+    margin-left: 75px;
+    margin-bottom: 0px;
+    font-size: medium;
+}
+
+.shadow {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+
+.Features {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 12px;
+}
+
+.ads {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.dis p{
+    margin-bottom: 40px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    margin-left: 130px;
+    margin-top: 30px;
+    column-gap: 200px;
+    font-size: 20px;
+}
+.spider {
+    font-size: 27px;
+}
+
+.dis {
+    margin-bottom: 0%;
+    font-size: 15px;
+}
+
+.explore {
+
+    background-color: #efeaeaa9;
+   
+}
+.explore {
+    font-size: 30px;
+    padding-left: 90px;
+}
+.explore-title {
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.explore-items {
+    
+    width: "426.925px";
+    display: grid;
+    grid-template-columns: 350px 350px 5fr;
+    column-gap: 100px;
+    margin-top: 30px;
+    
+   
+    
+}
+.ex-pic {
+    vertical-align: top;
+    object-fit: contain;
+    
+}
+.explore-dis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.ex-pera {
+ font-size: 20px;
+ text-align: center;
+ margin-bottom: 15px;
+}
+
+
+
+.ex-pera1{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 0%;
+}
+.ex-pera-sec {
+    font-size: 18px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    
+}
+.ex-pera1-sec {
+    font-size: 15px;
+    margin-left: 65px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.ex-pera-the {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 12px;
+}
+.ex-pera1-the {
+    font-size: 15px;
+    margin-left: 30px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 15;
+}
+.more {
+    margin-top: 40px;
+}
+.more-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+.more-dis {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 35px;
+}
+.more-para {
+    font-size: 15px;
+    margin-top: 30px;
+}
+.more-para-main {
+    font-size: 25px;
+    margin-top: 30px;
+    font-style: normal;
+    
+}
+.short {
+    font-size: x-small;
+    font-weight: 800;
+
+}
+.short1 {
+    font-size: x-small;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.left {
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.footer-nav {
+  display:grid;
+  grid-template-columns: 200px 100PX 100PX 900PX 1fr;
+  margin-top: 40px;
+}
+.footer-logo {
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.footer-right {
+    padding-top: 30px;
+}
+.last-logo {
+   text-align: center;
+    margin-bottom: 9px;
+}
+.last-sen {
+    display: grid;
+    grid-template-columns: 60px 60px 100px 100px 100px 100px 160px 210px 190px 120px 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.last {
+    font-size: small;
+    text-align: center;
+}
+.disney-last {
+    margin-left: 35%;
+    margin-top: 25px;
+    font-size: small;
+}
+.black{
+    width: 375px;
+    height: 90px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    position:absolute;
+    bottom: 1px;
+   
+}
+.black1{
+    width: 340px;
+    height: 70px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    position: absolute;
+    bottom: 1px;
+    margin-left: 0.5%;
+    top: 85.5%;
+}  
+   
